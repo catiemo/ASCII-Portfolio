@@ -1,0 +1,9 @@
+git show portrait.txt
+git checkout HEAD portrait.txt
+git add portrait.txt
+git commit -m "restore goatee"
+git add . 
+git commit -m "change completion dates"
+git add .  
+git reset HEAD house.txt
+git commit -m "add portrait.txt and tree.txt"
